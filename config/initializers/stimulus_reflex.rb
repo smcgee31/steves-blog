@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# StimulusReflex.configure do |config|
+StimulusReflex.configure do |config|
   # Enable/disable exiting / warning when the sanity checks fail options:
   # `:exit` or `:warn` or `:ignore`
 
@@ -26,4 +26,4 @@
 
   # config.middleware.use FirstRackMiddleware
   # config.middleware.use SecondRackMiddleware
-# end
+end

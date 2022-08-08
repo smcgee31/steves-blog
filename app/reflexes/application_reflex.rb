@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# class ApplicationReflex < StimulusReflex::Reflex
-  # Put application-wide Reflex behavior and callbacks in this file.
+class ApplicationReflex < StimulusReflex::Reflex
+  # Put application-wide Reflex behavior and callbacks in this file. 
   #
   # Example:
   #
@@ -9,4 +9,4 @@
   #   delegate :current_user, to: :connection
   #
   # Learn more at: https://docs.stimulusreflex.com/reflexes#reflex-classes
-# end
+end
